@@ -117,7 +117,7 @@ Ini adalah gambaran singkat tentang saya, perjalanan yang sedang saya jalani, da
             <div class="project-card">
                 <strong>Proyek 1:</strong> Portfolio Website<br>
                 Deskripsi: Sebuah situs web portofolio yang menampilkan proyek dan keterampilan saya.<br>
-                Link: <a href="https://example.com/portfolio" target="_blank">Demo</a><br>
+                Link: <a href="https://sherinbaadilla.github.io/Portfolio/" target="_blank">Demo</a><br>
             </div>
 
             <hr>
