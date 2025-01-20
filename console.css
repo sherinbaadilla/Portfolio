@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.ascii-art {
+    text-align: center;
+    color: #00ff00;
+    margin-top: 20px;
+    white-space: pre-wrap; /* Untuk memastikan format ASCII art tetap rapi */
+}
+
+.moving-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #00ff00;
+}
+
+.mini-terminal {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px; /* Increased height for better visibility */
+    background-color: rgba(0, 0, 0, 0.9); /* Darker background for contrast */
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 15px; /* Increased padding for better spacing */
+    overflow-y: auto;
+    font-family: "Courier New", Courier, monospace;
+    display: none; /* Initially hidden */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Glow effect */
+}
+
+.project-card, .article-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Card background */
+    padding: 10px;
+    margin: 5px 0; /* Spacing between cards */
+    border-radius: 3px; /* Rounded corners for cards */
+}
+
+.project-card a, .article-card a {
+    color: #00ff00; /* Link color */
+    text-decoration: underline; /* Underline links */
+}
